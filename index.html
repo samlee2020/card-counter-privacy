@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Card Counter — Privacy Policy &amp; Support</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      max-width: 740px;
+      margin: 60px auto;
+      padding: 0 24px 80px;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+    h1 { font-size: 2rem; margin-bottom: 4px; }
+    h2 { font-size: 1.15rem; margin-top: 36px; margin-bottom: 8px; }
+    p, li { font-size: 0.97rem; color: #333; }
+    ul { padding-left: 20px; }
+    .meta { color: #888; font-size: 0.88rem; margin-bottom: 40px; }
+    a { color: #007aff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    hr { border: none; border-top: 1px solid #e5e5e5; margin: 40px 0; }
+    code { background: #f4f4f5; padding: 1px 5px; border-radius: 4px; font-size: 0.9em; }
+  </style>
+</head>
+<body>
+
+  <h1 id="privacy">Privacy Policy</h1>
+  <p class="meta">Card Counter &nbsp;·&nbsp; Last updated: September 26, 2026</p>
+
+  <p>
+    This Privacy Policy describes how the Card Counter iOS app ("the App") handles your
+    information. The short version: it does not collect anything. The App has no networking code
+    of any kind — it cannot send data anywhere, because it never makes a network request.
+  </p>
+
+  <h2>1. Information We Collect</h2>
+  <p>
+    <strong>None.</strong> The App collects no personal information whatsoever. There is no
+    account, no sign-in, no analytics, and no server. We never see how you use the App, or that
+    you use it at all.
+  </p>
+
+  <h2>2. Information Stored on Your Device</h2>
+  <p>
+    The App saves two things, both locally, and neither ever leaves your device except as part of
+    a standard encrypted iPhone backup, which is controlled entirely by your own Apple account
+    settings:
+  </p>
+  <ul>
+    <li>
+      <strong>Your training history</strong> — the drills you have answered, whether each was
+      correct, and running accuracy totals. Stored as a JSON file in the App's private
+      Application Support directory, readable only by the App.
+    </li>
+    <li>
+      <strong>Your preferences</strong> — deck count, dealing speed, table rules and display
+      options. Stored locally using iOS UserDefaults.
+    </li>
+  </ul>
+  <p>
+    Deleting the App removes both. You can also clear your training history at any time from the
+    Progress screen.
+  </p>
+
+  <h2>3. Information We Do Not Collect</h2>
+  <ul>
+    <li>We do not collect analytics, crash reports, or usage data.</li>
+    <li>We do not use advertising SDKs, or track you across apps or websites.</li>
+    <li>We do not collect your name, email address, location, or contacts.</li>
+    <li>We do not sell, rent, or share your data — we do not have any of it to share.</li>
+  </ul>
+
+  <h2>4. Third-Party Services</h2>
+  <p>
+    <strong>None.</strong> The App contains no third-party SDKs, frameworks, or analytics
+    libraries. It is built entirely on Apple's own frameworks and makes no outbound connections.
+  </p>
+
+  <h2>5. Children's Privacy</h2>
+  <p>
+    The App simulates a casino card game for training purposes and is not directed at children.
+    It does not knowingly collect any information from anyone, including children.
+  </p>
+
+  <h2>6. Changes to This Policy</h2>
+  <p>
+    We may update this Privacy Policy from time to time. Any changes will be reflected on this
+    page with an updated date.
+  </p>
+
+  <h2>7. Contact</h2>
+  <p>
+    Questions about this Privacy Policy?<br />
+    <a href="mailto:therealsamlee@icloud.com">therealsamlee@icloud.com</a>
+  </p>
+
+  <hr />
+
+  <h1 id="support">Support</h1>
+  <p class="meta">Card Counter</p>
+
+  <p>
+    Card Counter is a Hi-Lo card counting trainer. It deals real blackjack rounds at a speed you
+    choose, keeps the count hidden, and grades you on it. If something is not working or you have
+    feedback, get in touch.
+  </p>
+
+  <h2>Contact Support</h2>
+  <p>
+    Email:<br />
+    <a href="mailto:therealsamlee@icloud.com">therealsamlee@icloud.com</a>
+  </p>
+
+  <h2>Common Questions</h2>
+
+  <p><strong>What is the running count?</strong><br />
+  The Hi-Lo total of every card you have seen this shoe: 2–6 count as +1, 7–9 as 0, and
+  10, J, Q, K, A as −1. Over a full deck the tags cancel out to zero.</p>
+
+  <p><strong>Why is the true count a whole number?</strong><br />
+  Because that is how it is used at a table. You judge the discard tray to about half a deck,
+  divide the running count by the decks remaining, and round. The App shows you the deck estimate
+  it is using, so the answer is always one you could have worked out yourself.</p>
+
+  <p><strong>Why did my count not finish at zero?</strong><br />
+  Cards can leave the shoe unseen — a burn card, or a hole card the dealer never turned over.
+  The App only ever grades you on cards you could actually have seen, so an honest count may end
+  slightly off zero. The quiz tells you how many cards went unseen.</p>
+
+  <p><strong>Why does removing tens change the count?</strong><br />
+  Hi-Lo is balanced only with full decks. Remove all the tens and the tags no longer cancel, so a
+  perfect count finishes at +24 rather than 0 in a six-deck shoe. The App shows this as the shoe's
+  imbalance and grades the true count against the adjusted figure, which is the one tied to your
+  edge.</p>
+
+  <p><strong>How do the simulated players decide what to do?</strong><br />
+  Every seat plays perfect basic strategy for the rules you have set — hit, stand, double, split
+  and surrender all follow the chart for your deck count, soft-17 rule and doubling restrictions.</p>
+
+  <p><strong>Is my data private?</strong><br />
+  Yes. The App has no networking code at all, so nothing can leave your device. See the
+  <a href="#privacy">Privacy Policy</a> above.</p>
+
+  <hr />
+  <p style="font-size:0.82rem; color:#aaa;">
+    &copy; 2026 Card Counter. All rights reserved.
+  </p>
+
+</body>
+</html>
